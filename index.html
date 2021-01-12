@@ -4,29 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phirachat's Site</title>
+
+    <style>
+            .Header{
+                text-align:center; bottom: 50% ; left: 50% ;
+            }
+            .Menu{
+                text-align: center; padding: 10px 10%;
+            }
+
+            .Menu a {
+                text-decoration: none; color: rgb(51, 55, 58); padding: 14px 16px;
+            }
+
+            .Container img {
+                border-radius: 250px; width: 30%; margin-left:150px; margin-top: -50px; float: left; padding: 15px;
+            }
+
+            .Footer  small {
+                text-align:center; opacity: 40%;
+                font-weight: bold;
+            }
+    </style>
+
 </head>
-<body>
-    
+<body>   
     <div class="Header">
         <!--<img src="image/header3.png" alt="Yeri header" style="width: 100%;"> -->
-        <div>
-            <h2 style="text-align:center; bottom: 50%; left: 50%;">PHIRACHAT</h2>
+        <div >
+            <h2>PHIRACHAT</h2>
         </div>
     </div>
 
-    
-    <div class="Menu"  style="text-align: center; padding: 10px 10%;">
+    <div class="Menu">
         <div style="padding: 0px 20px; display: inline-block;">
-            <a href="index.html" style="text-decoration: none; color: rgb(51, 55, 58); padding: 14px 16px;"> <strong>HOME</strong></a>
-            <a href="gallery.html" style="text-decoration: none; color: rgb(51, 55, 58); padding: 14px 16px;"> <strong>GALLERY</strong></a>
-            <a href="ct.html" style="text-decoration: none; color: rgb(51, 55, 58); padding: 14px 16px;">  <strong>CONTACT</strong></a>
+            <a href="index.html"> <strong>HOME</strong></a>
+            <a href="gallery.html"> <strong>GALLERY</strong></a>
+            <a href="ct.html">  <strong>CONTACT</strong></a>
         </div>     
     </div>
 
 
-    <div>
+    <div class="Container">
             <br>
-            <p> <img src="image/01.jpg" alt="Phiracaht's Photo" style="border-radius: 250px; width: 30%; margin-left:150px; margin-top: -50px; float: left; padding: 15px;">
+            <p> <img src="image/01.jpg" alt="Phiracaht's Photo">
                 <table style="text-align: left;">
                     <tr>
                         <td>Name: </td>
@@ -50,21 +71,16 @@
                             </td>
                     </tr>
                     <tr>
-                        <td style="vertical-align: top;">Awards:</td>
-                        <td style="vertical-align: top;"> 
-                            <li>Second Place Award presented by the U.S. Agency for International Development-USAID : “Coating Highland Rice Seeds with Local Spondias pinnata Gum Can Reduce Seedling Mortality Caused By Water Deficit During Rain Delay” </li>
-                        </td>
+                        
                     </tr>
                 </table>
             
             </p>
     </div>
     
-
-    
-
-
-
-    <footer> <hr><small style="text-align:center; opacity: 40%; "> Create by Phirachat kochanil 0801</small></footer>
+    <footer class="Footer"> 
+        <hr>
+        <small> Create by Phirachat kochanil 0801</small>
+    </footer>
 </body>
 </html>
